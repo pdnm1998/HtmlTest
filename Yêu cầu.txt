@@ -1,0 +1,10 @@
+convert từ file pts thành file html 
+(được sử sử dụng bootstrap)
+Yêu cầu:
++khi lăn chuột xuống hết banner thì menu & logo cuộn theo màn hình
++Phần discover: sử dụng slider, auto chạy, 2s chuyến slide 1 lần 
+font chữ: sử dụng font roboto của google, Tiêu đề sử dụng font roboto slab
++form: khi click vào date show ngày tháng theo lịch
++responsive bản mobile(320px) và tablet (768px) cho phù hợp với bản desktop 
+
+
