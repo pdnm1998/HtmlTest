@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#group1 {
+    background-image: url(./group1/design/Rectangle\ \(1\).png);
+    width: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+h5 {
+    margin-top: 30px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    background-image: url(./group1/design/Rectangle\ \(1\).png);
+    width: 100%;
+    padding: 0px;
+}
+
+#logo {
+    width: 15%;
+    margin-left: 20px;
+}
+
+.MENU1 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.MENU {}
+
+.phone {
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.introduce {
+    position: absolute;
+    top: 120px;
+    padding: 30px;
+    padding-top: 100px;
+    background-image: url(./group1/design/Rectangle\ \(1\).png);
+    width: 100%;
+    height: 420px;
+}
+
+#review {
+    display: table;
+    border-width: 2px;
+    border-style: dashed;
+    text-align: center;
+    padding: 10px !important;
+    font-size: 12px;
+}
+
+.introduce {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+#sub {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#subT {
+    width: 50%;
+    margin-top: 0px !important;
+    box-sizing: border-box;
+}
+
+.title img {
+    margin: 20px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.image {
+    position: relative;
+    float: left;
+}
+
+#img1 {
+    position: relative;
+    left: 270px;
+    z-index: 100;
+}
+
+#img2 {
+    position: relative;
+    left: 210px;
+    top: -40px;
+    z-index: 90;
+}
+
+#img3 {
+    position: relative;
+    left: -170px;
+    top: -40px;
+    z-index: 80;
+}
+
+#img4 {
+    position: relative;
+    left: 130px;
+    top: -510px;
+    z-index: 70;
+}
+
+#img5 {
+    position: relative;
+    left: 270px;
+    top: -600px;
+    z-index: 900;
+}
+
+#img6 {
+    position: relative;
+    left: 180px;
+    top: -610px;
+    z-index: 90;
+}
+
+#img7 {
+    background-color: red;
+    position: relative;
+    left: -380px;
+    top: -670px;
+    z-index: 990;
+    border-radius: 50%;
+    float: right;
+    border-style: dashed;
+    padding: 10px;
+    margin: 10px;
+}
+
+#group2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px !important;
+    margin: 50px;
+    height: 300px;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.left {
+    width: 45%;
+    position: relative;
+}
+
+.left img {
+    width: 500px;
+}
+
+.contain {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+
+.right1 {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.right2 {
+    position: relative;
+}
+
+.right1 img {
+    width: 500px;
+}
+
+.right2 img {
+    width: 500px;
+}
+
+.text {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headT {
+    height: auto;
+    width: 16%;
+    background-color: orange;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choose1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose2 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#order {
+    width: 40%;
+    background-color: #cc1818;
+    color: white;
+    border-style: none;
+    margin-top: 40px;
+}
+
+#group4 {
+    width: 90%;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 9px 8px 12px 6px rgba(0, 0, 0, 0.26);
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.gr4l {
+    width: 50%;
+    margin: 20px;
+}
+
+.input {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.gr4r {
+    width: 50%;
+    margin: 20px;
+}
+
+#end {
+    height: 500px;
+}
