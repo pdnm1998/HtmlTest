@@ -61,6 +61,7 @@ h5 {
     background-image: url(./group1/design/Rectangle\ \(1\).png);
     width: 100%;
     height: 420px;
+    display: flex;
 }
 
 #review {
@@ -100,6 +101,10 @@ h5 {
     margin-left: 0px;
     text-align: center;
     width: 100%;
+}
+
+.num {
+    font-size: 15px;
 }
 
 .image {
@@ -156,10 +161,18 @@ h5 {
     z-index: 990;
     border-radius: 50%;
     float: right;
-    border-style: dashed;
-    padding: 10px;
-    margin: 10px;
 }
+
+#img7 #circle {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    text-align: center;
+}
+
+#img7 #circle {}
 
 #group2 {
     display: flex;
@@ -367,6 +380,144 @@ h5 {
     background-color: orange;
 }
 
-#end {
-    height: 500px;
+#group5 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#group5 .container {
+    width: 80%;
+    position: relative;
+}
+
+.imgFood div {
+    /* position: absolute; */
+}
+
+.imgFood #img1 {
+    position: absolute;
+    margin-left: -320px;
+    margin-top: -50px;
+}
+
+.imgFood #img2 {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 150px;
+}
+
+.imgFood #img3 {
+    position: absolute;
+    margin-left: 1220px;
+    margin-top: 150px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.form button {
+    width: 268px;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 5px;
+    color: white;
+    margin: 20px;
+}
+
+.form div input {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    margin: 20px;
+    width: 60%;
+}
+
+#group6 {
+    width: 98%;
+    margin: 1%;
+    overflow: hidden;
+}
+
+#imgEnd .imgend {
+    width: 98%;
+    margin: 1%;
+    height: auto;
+    /* border-radius: 1px; */
+    background-size: cover;
+    display: block;
+    position: relative;
+}
+
+#imgEnd {
+    position: relative;
+}
+
+#imgEnd .logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+}
+
+#imgEnd .logo img {
+    width: 200px;
+}
+
+#imgEnd .textend {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 35%;
+    color: white;
+}
+
+#imgEnd .company {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    width: 35%;
+    color: white;
+}
+
+#imgEnd .info {
+    position: absolute;
+    bottom: 250px;
+    left: 850px;
+    width: 35%;
+    color: white;
+}
+
+#imgEnd .info p {
+    margin-left: 20px;
+}
+
+#imgEnd .info div {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgEnd .icon {
+    position: absolute;
+    bottom: 15px;
+    left: 1000px;
+    color: black;
+    display: flex;
+    margin: 10px;
+}
+
+#imgEnd .icon div {
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
 }
