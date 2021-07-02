@@ -271,113 +271,47 @@ h5 {
     border: 1px solid white;
     box-shadow: 9px 8px 12px 6px rgba(0, 0, 0, 0.26);
     margin: 5%;
-    width: 1150px;
-    height: 500px;
     overflow: hidden;
 }
 
-.sliders {
-    /* position: relative; */
+.slider .slide {
     display: flex;
-    width: 300%;
-    height: 500px;
 }
 
-.sliders input {
-    display: none;
-}
-
-.slide {
-    display: flex;
-    transition: 2s;
-    width: 33%;
-}
-
-.slide img {
-    width: 659px;
-    height: 440px;
-}
-
-.navigation-manual {
-    position: absolute;
-    width: 800px;
-    display: flex;
-    justify-content: start;
-    margin-top: -50px;
-    margin-left: 20px;
-}
-
-.manual-btn {
-    border: 2px solid orange;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child) {
-    margin-right: 10px;
-}
-
-.manual-btn:hover {
-    background-color: orange;
-}
-
-#radio1:checked~.sliders.first {
-    margin-left: 0;
-}
-
-#radio2:checked~.sliders.first {
-    margin-left: -33%;
-}
-
-#radio3:checked~.sliders.first {
-    margin-left: -66%;
-}
-
-.gr4l {
-    width: 350px;
-    height: 400px;
+.slider .slide .gr4l {
+    width: 50%;
     margin: 40px;
 }
 
-.gr4r {
-    /* width: 659px;
-    height: 440px; */
+.slider .slide .gr4r {
+    width: 50%;
     margin: 20px;
 }
 
-.navigation-auto {
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-nav {
+    display: none;
+}
+
+.owl-dots {
     position: absolute;
-    width: 800px;
+    bottom: 50px;
+    left: 40px;
+    width: 100px;
+    background-color: red;
     display: flex;
-    justify-content: start;
-    margin-top: 450px;
-    margin-left: 20px;
+    justify-content: space-between;
 }
 
-.navigation-auto div {
-    border: 2px solid orange;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navigation-auto div:not(:last-child) {
-    margin-right: 10px;
-}
-
-#radio1:checked~.navigation-auto .auto-btn1 {
+.owl-dots .owl-dot {
+    height: 25px;
+    width: 25px;
     background-color: orange;
-}
-
-#radio2:checked~.navigation-auto .auto-btn2 {
-    background-color: orange;
-}
-
-#radio3:checked~.navigation-auto .auto-btn3 {
-    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 #group5 {
