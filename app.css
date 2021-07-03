@@ -28,7 +28,6 @@ h5 {
     width: 100%;
     z-index: 999999;
     background-image: url(./group1/design/Rectangle\ \(1\).png);
-    width: 100%;
     padding: 0px;
 }
 
@@ -73,12 +72,6 @@ h5 {
     font-size: 12px;
 }
 
-.introduce {
-    position: relative;
-    display: flex;
-    width: 100%;
-}
-
 .title {
     width: 100%;
     position: relative;
@@ -114,44 +107,9 @@ h5 {
 
 #img1 {
     position: relative;
-    left: 270px;
-    z-index: 100;
+
 }
 
-#img2 {
-    position: relative;
-    left: 210px;
-    top: -40px;
-    z-index: 90;
-}
-
-#img3 {
-    position: relative;
-    left: -170px;
-    top: -40px;
-    z-index: 80;
-}
-
-#img4 {
-    position: relative;
-    left: 130px;
-    top: -510px;
-    z-index: 70;
-}
-
-#img5 {
-    position: relative;
-    left: 270px;
-    top: -600px;
-    z-index: 900;
-}
-
-#img6 {
-    position: relative;
-    left: 180px;
-    top: -610px;
-    z-index: 90;
-}
 
 #img7 {
     background-color: red;
@@ -171,8 +129,6 @@ h5 {
     border: 2px dashed white;
     text-align: center;
 }
-
-#img7 #circle {}
 
 #group2 {
     display: flex;
@@ -325,10 +281,6 @@ h5 {
 #group5 .container {
     width: 80%;
     position: relative;
-}
-
-.imgFood div {
-    /* position: absolute; */
 }
 
 .imgFood #img1 {

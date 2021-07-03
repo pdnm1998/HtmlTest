@@ -16,3 +16,6 @@ $(document).ready(function() {
         }
     })
 });
+$('#sandbox-container input').datepicker({
+    todayHighlight: true
+});
