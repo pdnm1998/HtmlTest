@@ -33,6 +33,7 @@ h5 {
     z-index: 999999;
     background-image: url(./group1/design/Rectangle\ \(1\).png);
     padding: 0px;
+    display: flex;
 }
 
 .phone img {
@@ -50,6 +51,12 @@ h5 {
 
 .MENU {
     font-size: 70%;
+    position: relative;
+}
+
+.MENU #mobie {
+    position: absolute;
+    bottom: 1000%;
 }
 
 .MENU1 {
@@ -70,11 +77,12 @@ h5 {
     position: relative;
     top: 120px;
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 0;
     background-image: url(./group1/design/Rectangle\ \(1\).png);
     width: 100%;
     display: flex;
-    height: 500px;
+    height: 600px;
+    overflow: hidden;
 }
 
 .image {
@@ -83,17 +91,17 @@ h5 {
 }
 
 .image img {
-    width: 500px;
+    width: 650px;
     position: relative;
-    top: -65%;
+    top: -40%;
     left: 10%;
 }
 
 .title {
     width: 100%;
     position: relative;
-    flex: 1;
-    margin-left: 2%;
+    flex: 0.7;
+    margin-top: 50px;
 }
 
 #review {
@@ -139,16 +147,12 @@ h5 {
 #img7 {
     background-color: red;
     position: absolute;
-    left: 28%;
-    top: 28%;
+    left: 30%;
+    top: 37%;
     z-index: 990;
     border-radius: 50%;
     width: 90px;
     height: 90px;
-}
-
-#img7 .image {
-    /* width: 15%; */
 }
 
 #img7 #circle {
@@ -167,8 +171,8 @@ h5 {
 #group2 {
     display: flex;
     flex-direction: row;
-    margin-top: 180px !important;
-    margin: 50px;
+    margin: auto;
+    margin-top: 50px;
     justify-content: center;
     /* position: relative; */
 }
@@ -242,6 +246,10 @@ h5 {
     margin-top: 50px;
 }
 
+#group3 .text #content {
+    margin: 20px 180px 0px 180px;
+}
+
 .choose1 {
     width: 25%;
     display: flex;
@@ -292,7 +300,7 @@ h5 {
 }
 
 .slider .slide .gr4r {
-    width: 50%;
+    width: 70%;
     margin: 20px;
 }
 
@@ -320,6 +328,19 @@ h5 {
     background-color: orange;
     border-radius: 50%;
     display: inline-block;
+}
+
+.gr4l h3 {
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.gr4l h2 {
+    font-size: 20px;
+}
+
+.gr4l p {
+    font-size: 14px;
 }
 
 #group5 {
@@ -417,11 +438,11 @@ h5 {
     position: absolute;
     top: 50px;
     left: 50px;
-    width: 50px;
+    width: 100%;
 }
 
 #imgEnd .logo img {
-    width: 200px;
+    width: 20%;
 }
 
 #imgEnd .textend {
@@ -480,12 +501,416 @@ h5 {
     justify-content: center;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 787px) {
     body {
         width: 100%;
         height: 100%;
         font-family: 'Roboto', sans-serif;
-        max-width: 768px;
+    }
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999999;
+        background-image: url(./group1/design/Rectangle\ \(1\).png);
+        padding: 0px;
+        display: flex;
+    }
+    .phone img {
+        width: 7%;
+    }
+    .phone span {
+        font-size: 80%;
+    }
+    #logo {
+        width: 20%;
+        margin-left: 20px;
+    }
+    .MENU {
+        position: relative;
+        font-size: 70%;
+    }
+    .MENU #mobie {
+        position: absolute;
+        bottom: 1000%;
+    }
+    .MENU1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    /* .MENU {} */
+    .phone {
+        text-align: right;
+        padding-right: 15px;
+    }
+    .introduce {
+        position: relative;
+        top: 120px;
+        padding: 30px;
+        padding-top: 0;
+        background-image: url(./group1/design/Rectangle\ \(1\).png);
+        width: 100%;
+        display: flex;
+        /* height: 400px; */
+        overflow: hidden;
+    }
+    .image {
+        position: relative;
+        flex: 1;
+    }
+    .image img {
+        width: 150%;
+        position: relative;
+        top: -38%;
+        left: -12%;
+    }
+    .title {
+        width: 100%;
+        position: relative;
+        flex: 0.7;
+        margin-top: 50px;
+    }
+    #review {
+        width: 80%;
+        display: table;
+        border-width: 2px;
+        border-style: dashed;
+        text-align: center;
+        padding: 10px !important;
+        font-size: 8px;
+    }
+    #sub {
+        margin-top: 0px !important;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #subT {
+        margin-top: 0px;
+    }
+    #subT img {
+        margin-top: 0px;
+        width: 170%;
+    }
+    .title img {
+        margin: 5%;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .num {
+        font-size: 15px;
+    }
+    #img1 {
+        position: relative;
+    }
+    #img7 {
+        background-color: red;
+        position: absolute;
+        left: 15%;
+        top: 34%;
+        z-index: 990;
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+    }
+    #img7 #circle {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        border-radius: 50%;
+        border: 2px dashed white;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        font-size: 11px;
+        color: white;
+    }
+    #group2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #group2 p {
+        font-size: 60%;
+    }
+    #group2 h5 {
+        font-size: 90%;
+    }
+    .left {
+        width: 70%;
+        position: relative;
+        /* flex: 1; */
+        display: flex;
+        justify-content: center;
+    }
+    .left img {
+        width: 80%;
+    }
+    .contain {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: white;
+        margin-left: 10%;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .right1 {
+        position: relative;
+        left: 5%;
+    }
+    .right2 {
+        position: relative;
+        left: 5%;
+    }
+    .right1 img {
+        width: 80%;
+    }
+    .right2 img {
+        width: 80%;
+    }
+    .right .contain {
+        margin-left: 0;
+    }
+    .text {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .headT {
+        height: auto;
+        width: 16%;
+        background-color: orange;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #group3 .text #content {
+        margin: 0pc 100px;
+        font-size: 62%;
+    }
+    #group3 h5 {
+        text-align: center;
+    }
+    #group3 .choose p {
+        font-size: 10px;
+    }
+    .choose1 {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .choose2 {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .choose3 {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #order {
+        width: 60%;
+        background-color: #cc1818;
+        color: white;
+        border-style: none;
+        margin-top: 40px;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .slider {
+        background-color: white;
+        border: 1px solid white;
+        box-shadow: 9px 8px 12px 6px rgba(0, 0, 0, 0.26);
+        margin: 5%;
+        overflow: hidden;
+    }
+    .slider .slide {
+        display: flex;
+    }
+    .slider .slide .gr4l {
+        width: 50%;
+        margin: 40px;
+    }
+    .slider .slide .gr4r {
+        width: 80%;
+        margin: 20px;
+    }
+    .owl-carousel {
+        position: relative;
+    }
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    .owl-dots {
+        position: absolute;
+        bottom: 50px;
+        left: 40px;
+        width: 100px;
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+    }
+    .owl-dots .owl-dot {
+        height: 25px;
+        width: 25px;
+        background-color: orange;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #group5 {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    #group5 .container {
+        width: 80%;
+        position: relative;
+    }
+    .imgFood #img1 {
+        position: absolute;
+        top: 5%;
+    }
+    .imgFood #img2 {
+        position: absolute;
+    }
+    .imgFood #img3 {
+        position: absolute;
+    }
+    .form {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10%;
+    }
+    .form button {
+        width: 60%;
+        border-radius: 3px;
+        border: 1px solid;
+        padding: 5px;
+        color: white;
+        margin: 20px;
+    }
+    .form div input {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid;
+        margin: 20px;
+        width: 60%;
+    }
+    .gr4l h3 {
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+    .gr4l h2 {
+        font-size: 10px;
+    }
+    .gr4l p {
+        font-size: 10px;
+    }
+    #group6 {
+        width: 98%;
+        margin: 1%;
+        overflow: hidden;
+    }
+    #imgEnd .imgend {
+        width: 98%;
+        margin: 1%;
+        height: auto;
+        /* border-radius: 1px; */
+        background-size: cover;
+        display: block;
+        position: relative;
+    }
+    #imgEnd {
+        position: relative;
+    }
+    #imgEnd .logo {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 100%;
+    }
+    #imgEnd .logo img {
+        width: 20%;
+    }
+    #imgEnd .textend {
+        position: absolute;
+        top: 33%;
+        left: 7%;
+        width: 50%;
+        color: white;
+    }
+    #imgEnd .company {
+        position: absolute;
+        bottom: 5%;
+        left: 7%;
+        width: 20%;
+        color: white;
+        font-size: 48%;
+    }
+    #imgEnd .info {
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        width: 35%;
+        color: white;
+        font-size: 60%;
+    }
+    .info i {
+        min-width: 25px;
+        font-size: 24px !important;
+    }
+    #imgEnd .info p {
+        margin-left: 20px;
+    }
+    #imgEnd .info div {
+        display: flex;
+        flex-direction: row;
+    }
+    #imgEnd .icon {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        color: black;
+        display: flex;
+        margin: 10px;
+    }
+    #imgEnd .icon div {
+        border-radius: 50%;
+        background-color: white;
+        margin: 10px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .textend p {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
     }
     .navbar {
         position: fixed;
@@ -506,13 +931,122 @@ h5 {
     }
     .MENU {
         font-size: 70%;
+        position: relative;
+    }
+    .MENU #mobie {
+        position: absolute;
+        /* top: 0%; */
+    }
+    @keyframes bugfix {
+        from {
+            padding: 0;
+        }
+        to {
+            padding: 0;
+        }
+    }
+    @-webkit-keyframes bugfix {
+        from {
+            padding: 0;
+        }
+        to {
+            padding: 0;
+        }
+    }
+    #overlay-button {
+        position: absolute;
+        right: 2em;
+        top: 3em;
+        padding: 26px 11px;
+        z-index: 5;
+        cursor: pointer;
+        user-select: none;
+    }
+    #overlay-button span {
+        height: 4px;
+        width: 35px;
+        border-radius: 2px;
+        background-color: white;
+        position: relative;
+        display: block;
+        transition: all .2s ease-in-out;
+    }
+    #overlay-button span:before {
+        top: -10px;
+        visibility: visible;
+    }
+    #overlay-button span:after {
+        top: 10px;
+    }
+    #overlay-button span:before,
+    #overlay-button span:after {
+        height: 4px;
+        width: 35px;
+        border-radius: 2px;
+        background-color: white;
+        position: absolute;
+        content: "";
+        transition: all .2s ease-in-out;
+    }
+    #overlay-button:hover span,
+    #overlay-button:hover span:before,
+    #overlay-button:hover span:after {
+        background: #333332;
+    }
+    input[type=checkbox] {
+        display: none;
+    }
+    input[type=checkbox]:checked~#overlay {
+        visibility: visible;
+    }
+    input[type=checkbox]:checked~#overlay-button:hover span,
+    input[type=checkbox]:checked~#overlay-button span {
+        background: transparent;
+    }
+    input[type=checkbox]:checked~#overlay-button span:before {
+        transform: rotate(45deg) translate(7px, 7px);
+        opacity: 1;
+    }
+    input[type=checkbox]:checked~#overlay-button span:after {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
+    #overlay {
+        height: 100vh;
+        width: 100vw;
+        background: #ec6451;
+        z-index: 2;
+        visibility: hidden;
+        position: fixed;
+    }
+    #overlay.active {
+        visibility: visible;
+    }
+    #overlay ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        padding-left: 0;
+        list-style-type: none;
+    }
+    #overlay ul li {
+        padding: 1em;
+    }
+    #overlay ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+    #overlay ul li a:hover {
+        color: #333332;
     }
     .MENU1 {
         display: flex;
         flex-direction: column;
         margin: 20px;
     }
-    /* .MENU {} */
     .phone {
         text-align: right;
         padding-right: 15px;
@@ -587,9 +1121,6 @@ h5 {
         width: 90px;
         height: 90px;
     }
-    #img7 .image {
-        /* width: 15%; */
-    }
     #img7 #circle {
         position: absolute;
         top: 5px;
@@ -605,8 +1136,9 @@ h5 {
     #group2 {
         display: flex;
         flex-direction: row;
-        margin-top: 180px !important;
         justify-content: center;
+        margin: auto;
+        margin-top: 50px;
     }
     #group2 p {
         font-size: 60%;
@@ -663,10 +1195,13 @@ h5 {
     }
     .headT {
         height: auto;
-        width: 16%;
+        width: 50%;
         background-color: orange;
         text-align: center;
         margin-top: 50px;
+    }
+    #group3 .text #content {
+        margin: 10px;
     }
     .choose1 {
         width: 25%;
@@ -690,7 +1225,7 @@ h5 {
         align-items: center;
     }
     #order {
-        width: 40%;
+        width: 80%;
         background-color: #cc1818;
         color: white;
         border-style: none;
@@ -707,11 +1242,11 @@ h5 {
         display: flex;
     }
     .slider .slide .gr4l {
-        width: 50%;
-        margin: 40px;
+        width: 25%;
+        margin: 15px;
     }
     .slider .slide .gr4r {
-        width: 50%;
+        width: 60%;
         margin: 20px;
     }
     .owl-carousel {
@@ -722,9 +1257,10 @@ h5 {
     }
     .owl-dots {
         position: absolute;
-        bottom: 50px;
-        left: 40px;
-        width: 100px;
+        bottom: 12px;
+        left: 15px;
+        height: 10px;
+        width: 50px;
         background-color: red;
         display: flex;
         justify-content: space-between;
@@ -735,6 +1271,9 @@ h5 {
         background-color: orange;
         border-radius: 50%;
         display: inline-block;
+    }
+    .gr4l p {
+        font-size: 4px;
     }
     #group5 {
         width: 100%;
@@ -800,10 +1339,10 @@ h5 {
         position: absolute;
         top: 50px;
         left: 50px;
-        width: 50px;
+        width: 100%;
     }
     #imgEnd .logo img {
-        width: 200px;
+        width: 20%;
     }
     #imgEnd .textend {
         position: absolute;
