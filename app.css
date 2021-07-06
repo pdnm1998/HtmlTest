@@ -19,10 +19,6 @@ p {
     margin: 0px;
 }
 
-h5 {
-    margin-top: 30px;
-}
-
 .nav {
     overflow: hidden;
 }
@@ -105,7 +101,7 @@ h5 {
 }
 
 #review {
-    width: 47%;
+    width: 80%;
     display: table;
     border-width: 2px;
     border-style: dashed;
@@ -119,6 +115,21 @@ h5 {
     box-sizing: border-box;
 }
 
+#sub h1 {
+    font-size: 100px;
+    font-weight: 1000;
+    color: #290909;
+    text-shadow: 2px 2px 2px #fff;
+    margin: 0px;
+}
+
+#subT h1 {
+    font-size: 70px;
+    font-weight: 1000;
+    color: #290909;
+    text-shadow: 2px 2px 2px #fff;
+}
+
 #subT {
     width: 30%;
     margin-top: 0px !important;
@@ -127,13 +138,6 @@ h5 {
 
 #subT {
     margin-top: 0px;
-}
-
-.title img {
-    margin: 5%;
-    margin-left: 0px;
-    text-align: center;
-    width: 100%;
 }
 
 .num {
@@ -178,15 +182,14 @@ h5 {
 }
 
 .left {
-    width: 70%;
     position: relative;
-    /* flex: 1; */
+    flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .left img {
-    width: 80%;
+    width: 90%;
 }
 
 .contain {
@@ -195,39 +198,51 @@ h5 {
     left: 10px;
     color: white;
     margin-left: 10%;
+    font-size: 10px;
+}
+
+.contain h6 {
+    font-weight: 900;
+    margin: 0px;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    flex: 1;
     overflow: hidden;
+}
+
+.right .contain {
+    margin-left: 6%;
+}
+
+.right2 .contain {
+    margin-top: 4%;
 }
 
 .right1 {
     position: relative;
-    left: 5%;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .right2 {
     position: relative;
-    left: 5%;
-    /* flex: 1; */
-    /* bottom: 0px; */
+    flex: 1;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .right1 img {
-    width: 80%;
+    width: 90%;
 }
 
 .right2 img {
-    width: 80%;
-}
-
-.right .contain {
-    margin-left: 0;
+    width: 90%;
 }
 
 .text {
@@ -247,8 +262,32 @@ h5 {
     margin-top: 50px;
 }
 
+.headT p {
+    font-size: 11px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+#group3 h1 {
+    margin-top: 20px;
+    font-weight: 1000;
+    color: #290909;
+}
+
+#group3 .choose p {
+    font-size: 14px;
+}
+
+#group3 .choose button {
+    width: 50%;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 10px;
+}
+
 #group3 .text #content {
-    margin: 20px 180px 0px 180px;
+    width: 80%;
+    font-size: 14px;
 }
 
 .choose1 {
@@ -317,15 +356,15 @@ h5 {
     position: absolute;
     bottom: 50px;
     left: 40px;
-    width: 100px;
+    width: 60px;
     /* background-color: red;s */
     display: flex;
     justify-content: space-between;
 }
 
 .owl-dots .owl-dot {
-    height: 25px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     display: inline-block;
 }
@@ -343,8 +382,10 @@ h5 {
     font-size: 15px;
 }
 
-.gr4l h2 {
-    font-size: 20px;
+.gr4l h1 {
+    font-size: 30px;
+    font-weight: 1000;
+    color: #290909;
 }
 
 .gr4l p {
@@ -377,8 +418,8 @@ h5 {
 
 .imgFood #img2 {
     position: absolute;
-    width: 100%;
-    left: 10%;
+    width: 120%;
+    left: 9%;
     top: 25%;
 }
 
@@ -547,7 +588,6 @@ h5 {
         flex-direction: column;
         margin: 20px;
     }
-    /* .MENU {} */
     .phone {
         text-align: right;
         padding-right: 15px;
@@ -568,10 +608,10 @@ h5 {
         flex: 1;
     }
     .image img {
-        width: 150%;
+        width: 170%;
         position: relative;
-        top: -38%;
-        left: -12%;
+        top: -46%;
+        left: -21%;
     }
     .title {
         width: 100%;
@@ -580,13 +620,14 @@ h5 {
         margin-top: 50px;
     }
     #review {
-        width: 80%;
+        width: 75%;
         display: table;
         border-width: 2px;
         border-style: dashed;
         text-align: center;
-        padding: 10px !important;
+        padding: 6px !important;
         font-size: 8px;
+        font-weight: 900;
     }
     #sub {
         margin-top: 0px !important;
@@ -596,15 +637,19 @@ h5 {
     #subT {
         margin-top: 0px;
     }
-    #subT img {
-        margin-top: 0px;
-        width: 170%;
+    #sub h1 {
+        font-size: 70px;
+        font-weight: 1000;
+        color: #290909;
+        text-shadow: 2px 2px 2px #fff;
+        margin: 0px;
     }
-    .title img {
-        margin: 5%;
-        margin-left: 0px;
-        text-align: center;
-        width: 100%;
+    #subT h1 {
+        font-size: 50px;
+        font-weight: 1000;
+        color: #290909;
+        margin-top: -15px;
+        text-shadow: 2px 2px 2px #fff;
     }
     .num {
         font-size: 15px;
@@ -615,8 +660,8 @@ h5 {
     #img7 {
         background-color: red;
         position: absolute;
-        left: 15%;
-        top: 50%;
+        left: 13%;
+        top: 51%;
         z-index: 990;
         border-radius: 50%;
         width: 90px;
@@ -637,25 +682,18 @@ h5 {
     #group2 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         margin: auto;
         margin-top: 50px;
-    }
-    #group2 p {
-        font-size: 60%;
-    }
-    #group2 h5 {
-        font-size: 90%;
-    }
-    .left {
-        width: 70%;
-        position: relative;
-        /* flex: 1; */
-        display: flex;
         justify-content: center;
     }
+    .left {
+        position: relative;
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
     .left img {
-        width: 80%;
+        width: 90%;
     }
     .contain {
         position: absolute;
@@ -663,26 +701,44 @@ h5 {
         left: 10px;
         color: white;
         margin-left: 10%;
+        font-weight: 900;
+        font-size: 14px;
+    }
+    .contain p {
+        font-size: 9px;
+    }
+    .contain h6 {
+        font-weight: 900;
+        font-size: 14px;
     }
     .right {
         display: flex;
         flex-direction: column;
-        width: 60%;
         overflow: hidden;
+        flex: 1;
+    }
+    .right .contain {
+        margin-left: 6% !important;
     }
     .right1 {
         position: relative;
-        left: 5%;
+        display: flex;
+        justify-content: center;
     }
     .right2 {
         position: relative;
-        left: 5%;
+        display: flex;
+        justify-content: center;
     }
+    .right2 .contain {
+        margin-top: 3%;
+    }
+    ;
     .right1 img {
-        width: 80%;
+        width: 90%;
     }
     .right2 img {
-        width: 80%;
+        width: 90%;
     }
     .right .contain {
         margin-left: 0;
@@ -702,15 +758,35 @@ h5 {
         text-align: center;
         margin-top: 50px;
     }
+    .headT p {
+        font-size: 8px;
+        font-weight: 900;
+        padding: 7px 9px;
+        color: #290909;
+    }
     #group3 .text #content {
         margin: 0pc 100px;
-        font-size: 62%;
+        width: 80%;
+        font-size: 65%;
     }
     #group3 h5 {
         text-align: center;
+        color: #290909;
+        font-size: 12px;
+        font-weight: 900;
     }
     #group3 .choose p {
         font-size: 10px;
+        color: #290909;
+    }
+    #group3 .choose button {
+        width: 55%;
+        font-size: 13px;
+        font-weight: 900;
+        padding: 6px 10px;
+    }
+    .choose #div1 {
+        width: 75%;
     }
     .choose1 {
         width: 25%;
@@ -803,10 +879,13 @@ h5 {
     }
     .imgFood #img1 {
         position: absolute;
-        top: 5%;
+        top: -3%;
     }
     .imgFood #img2 {
         position: absolute;
+        width: 160%;
+        left: 6%;
+        top: 23%;
     }
     .imgFood #img3 {
         position: absolute;
@@ -817,6 +896,12 @@ h5 {
         justify-content: center;
         align-items: center;
         padding-left: 10%;
+    }
+    .form .gr5l {
+        width: 50%;
+    }
+    .form .gr5r {
+        width: 50%;
     }
     .form button {
         width: 60%;
@@ -837,7 +922,7 @@ h5 {
         margin-bottom: 0px;
         font-size: 8px;
     }
-    .gr4l h2 {
+    .gr4l h1 {
         font-size: 10px;
     }
     .gr4l p {
@@ -1089,9 +1174,9 @@ h5 {
     }
     .introduce {
         position: relative;
-        top: 120px;
+        top: 50px;
         padding: 30px;
-        padding-top: 0;
+        padding-top: 0px;
         background-image: url(./group1/design/Rectangle\ \(1\).png);
         width: 100%;
         display: flex;
@@ -1112,7 +1197,7 @@ h5 {
         width: 100%;
         position: relative;
         flex: 0.7;
-        margin-top: 50px;
+        margin-top: 120px;
     }
     #review {
         width: 80%;
@@ -1121,7 +1206,6 @@ h5 {
         border-style: dashed;
         text-align: center;
         padding: 2px !important;
-        font-size: 5px;
     }
     #sub {
         margin-top: 0px !important;
@@ -1131,15 +1215,25 @@ h5 {
     #subT {
         margin-top: 0px;
     }
-    #subT img {
-        margin-top: 0px;
-        width: 170%;
+    #sub h1 {
+        font-size: 25px;
+        font-weight: 1000;
+        color: #290909;
+        text-shadow: 2px 2px 2px #fff;
+        margin: 0px;
     }
-    .title img {
-        margin: 5%;
-        margin-left: 0px;
-        text-align: center;
-        width: 100%;
+    .image img {
+        width: 210%;
+        position: relative;
+        top: -11%;
+        left: -40%;
+    }
+    #subT h1 {
+        font-size: 19px;
+        font-weight: 1000;
+        color: #290909;
+        margin-top: -5px;
+        text-shadow: 2px 2px 2px #fff;
     }
     .num {
         font-size: 6px;
@@ -1148,10 +1242,10 @@ h5 {
         position: relative;
     }
     #img7 {
-        background-color: red;
         width: 50px;
         height: 50px;
-        top: 18%;
+        top: 36%;
+        left: 5%;
     }
     #img7 #circle {
         position: absolute;
@@ -1172,7 +1266,7 @@ h5 {
     }
     #group2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         margin: auto;
         margin-top: 50px;
@@ -1184,18 +1278,18 @@ h5 {
         font-size: 90%;
     }
     .left {
-        width: 70%;
+        width: 100%;
         position: relative;
-        /* flex: 1; */
         display: flex;
         justify-content: center;
+        padding: 10px 0px;
     }
     .left img {
         width: 80%;
     }
     .contain {
         position: absolute;
-        top: 10px;
+        top: 20px;
         left: 10px;
         color: white;
         margin-left: 10%;
@@ -1203,16 +1297,16 @@ h5 {
     .right {
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 100%;
         overflow: hidden;
+        padding: 10px 0px;
     }
     .right1 {
         position: relative;
-        left: 5%;
+        padding: 0px 0px 10px 0px;
     }
     .right2 {
         position: relative;
-        left: 5%;
     }
     .right1 img {
         width: 80%;
@@ -1221,7 +1315,8 @@ h5 {
         width: 80%;
     }
     .right .contain {
-        margin-left: 0;
+        padding-left: 4%;
+        margin-top: -3%;
     }
     .text {
         text-align: center;
@@ -1238,25 +1333,44 @@ h5 {
         text-align: center;
         margin-top: 50px;
     }
+    #group3 h1 {
+        margin-top: 20px;
+        font-weight: 1000;
+        color: #290909;
+    }
+    #group3 .choose p {
+        font-size: 14px;
+    }
+    #group3 .choose {
+        flex-direction: column;
+    }
+    #group3 .choose button {
+        width: 50%;
+        font-size: 14px;
+        font-weight: 900;
+        padding: 10px;
+    }
     #group3 .text #content {
+        width: 85%;
+        font-size: 15px;
         margin: 10px;
     }
     .choose1 {
-        width: 25%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .choose2 {
-        width: 25%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .choose3 {
-        width: 25%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1348,6 +1462,14 @@ h5 {
         justify-content: center;
         align-items: center;
         padding-left: 10%;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .form .gr5l {
+        width: 120%;
+    }
+    .form .gr5r {
+        width: 120%;
     }
     .form button {
         width: 60%;
