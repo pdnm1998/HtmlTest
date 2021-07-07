@@ -550,7 +550,7 @@ p {
     justify-content: center;
 }
 
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 768px) {
     body {
         width: 100%;
         height: 100%;
@@ -1009,7 +1009,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 320px) {
     body {
         width: 100%;
         height: 100%;
